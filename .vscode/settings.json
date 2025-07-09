@@ -1,0 +1,84 @@
+{
+  // Flutter & Dart Settings
+  "dart.flutterSdkPath": "C:\\flutter",
+  "dart.sdkPath": "C:\\flutter\\bin\\cache\\dart-sdk",
+  
+  // Performance Settings
+  "files.watcherExclude": {
+    "**/build/**": true,
+    "**/.dart_tool/**": true,
+    "**/.flutter-plugins": true,
+    "**/.flutter-plugins-dependencies": true,
+    "**/.packages": true,
+    "**/pubspec.lock": true
+  },
+  
+  // Editor Settings for Flutter
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  
+  // Flutter Specific
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.closingLabels": true,
+  "dart.lineLength": 80,
+  
+  // Performance Optimizations
+  "search.exclude": {
+    "**/build": true,
+    "**/.dart_tool": true,
+    "**/node_modules": true
+  },
+  
+  // Auto Save
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  
+  // Terminal Settings
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "args": ["-NoExit", "-Command", "cd '${workspaceFolder}'"]
+    }
+  },
+  
+  // IntelliSense Settings
+  "dart.completeFunctionCalls": true,
+  "dart.showInspectorNotificationsForWidgetErrors": true,
+  
+  // Hot Reload Settings
+  "dart.hotReloadOnSave": "all",
+  
+  // Code Actions
+  "dart.enableSdkFormatter": true,
+  "dart.enableLspCodeActions": true,
+  
+  // Performance
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/build": true,
+    "**/.dart_tool": true
+  },
+  
+  // Theme and UI
+  "workbench.colorTheme": "Default Dark+",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  
+  // Git Settings
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  
+  // Extensions Recommendations
+  "extensions.ignoreRecommendations": false
+} 
